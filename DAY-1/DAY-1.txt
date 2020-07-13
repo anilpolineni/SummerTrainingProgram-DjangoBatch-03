@@ -1,0 +1,79 @@
+Good Morning To All
+===================
+
+3 weeks--->21days 18 days 36hrs per dy 2hrs
+
+To Day Agenda
+=============
+
+.EnvironmentSetup
+  
+ObjectOrientedProgramming
+-------------------------
+
+.Class
+----> class is a collection of varialbles and methods
+	
+   syntax:-
+       class class_name():
+	  variables
+          def function():
+               print('hello')
+
+How to Call Classs
+
+class.varblename
+classs.methodname()
+
+.Object
+
+ object is an instat of a class
+
+ syntax obj=classname
+      obj.varname or method name()
+
+
+.Constructors
+-----> constructor is special type of method(function) which is used to 
+ intlized the instance members of the class
+  In constructors two types
+	1. parametarized Constructor
+        2. Non Parametarized constructor
+
+  syntax of constructor
+=========================
+ class class_name:
+	def __init__(self)---->abc, yourname
+
+How to call constructor
+------------------------
+obj_name=constructor_name
+obj_name.function_name()
+
+Non Parametarized constructor
+-----------------------------
+Non Parametarized constructor means doesn't have parameters
+
+class class_name:
+    def __init__(self):
+
+How to call constructor
+------------------------
+obj_name=constructor_name
+obj_name.function_name()
+
+
+parametarized Constructor
+-------------------------
+parametarized Constructor pass the auguments or parameter with in method
+
+class class_name:
+ def __init__(self,a,b):
+	self.num1=a
+	self.num2=b
+
+obj_name=constructor_name
+obj_name.function_name()
+
+.Inheritance
+.Packages&Modules
