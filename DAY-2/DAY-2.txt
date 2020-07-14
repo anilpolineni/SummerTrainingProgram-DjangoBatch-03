@@ -1,0 +1,65 @@
+GoodMorning To All
+==================
+
+
+Today Agenda
+============
+
+Inheritance
+=============
+. Inheritance is a prowerful objectoriented programming
+. inheritance allows us to define a class we have methods and properties
+
+ in heritance we have two classes
+    base class  or parent class
+    derived class or child class
+
+syntax in heritance
+--------------------
+class parentclass:
+     body of base class
+class derivred class(baseclass):
+      body of derived class
+
+inheritance we few types
+1.single level
+
+--->in single level inheritance only one parent class and one child class
+
+2.multilevel
+
+----> in multi level level inheritance one or more parent class and chki;d class
+
+
+3.multiple
+---->in multiple inheritance morethan one parent class and one child class
+
+
+Packages&Modules
+================
+
+package is collection of modules
+
+module is collection of methods or classes
+
+from packages import math
+
+from packages.math import Math
+
+from packages.math import *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
