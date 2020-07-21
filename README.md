@@ -1,6 +1,7 @@
 # SummerTrainingProgram-DjangoBatch-03  
 
-# [All Videos]()
+# [DAY7]()
 
+# [DAY8]()
 
 
