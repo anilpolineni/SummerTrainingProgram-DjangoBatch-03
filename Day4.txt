@@ -1,0 +1,50 @@
+GoodMorning to all(Day4):
+=========================
+
+App Creation:
+=============
+python manage.py startapp appname
+
+		or
+django-admin startapp appname
+
+-->migrations: tables structures
+-->init.py:packages
+-->app.py:app data
+-->models.py:it contains all tables data.
+-->views.py:it contains logic part
+
+* register our app in project
+
+Admin part:
+===========
+
+createsuperuser
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
+
+
+Url mapping:
+============
+
+urls.py...>create in app folder
+
+
+
+task:
+......
+input:
+..........
+Employees/index/satheesh/566
+output:
+........
+
+welcome satheesh your rollno is 566
+
+

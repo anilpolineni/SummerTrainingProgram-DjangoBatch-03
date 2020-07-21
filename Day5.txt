@@ -1,0 +1,74 @@
+Goodmorning to all(Day5):
+===========================
+
+url mapping:
+============
+
+again repeate
+
+Templates:
+==========
+
+app....>templates(folder)...>create html files
+
+
+HTTPRequest and responses:
+==========================
+HttpRequest:
+    --> for handling this requests we have two different methods
+        -->GET and POST
+        -->if user sends request from url that means the rquest type is GET
+        --> if the request is comming from html form then the request type is POST
+HttpRespnse:
+    --> based on users request it will give response
+
+HTML:
+=====
+<tag></tag>
+
+-->><h1>.....<h6>
+-->><p>jiaeijjihsdfdskjlaflkj</p>
+--><html></html><head></head>
+* br
+*hr
+*li
+*ul
+*ol
+*table
+*input
+*form
+*iframe
+*pre
+*a
+*div
+*tr
+*td
+*th
+*tbody
+*thead
+*img
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

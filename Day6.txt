@@ -1,0 +1,92 @@
+GoodMorning to all:
+===================
+
+Data Display:
+=============
+
+data=name:satrheesh
+	name:ravi
+	name:anil
+
+{% for i in data %}
+
+{{i.name}}
+
+{% endfor %}
+
+
+
+if condi:
+	true
+else: 
+	false
+
+{% if condition %}
+
+
+{% endif %}
+
+
+
+
+
+CSS:
+====
+
+<style>
+
+</style>
+
+property:value
+
+brush:paint
+color:red,gmb,y
+
+
+* inline
+
+<h1 style="">hai</h1>
+
+* internal
+* external
+
+static:
+..........
+
+images
+css
+jq
+js
+
+
+Registration data....>display in html page
+
+
+Task:
+======
+registration.html:--->username,pasword,email..>submit
+
+if req....
+	name
+	pass
+	email
+	name==Adithya password==adithya
+	weilcome adhithya 
+	wrong
+	invalid
+task2:
+======
+loaclhost:8000/Faculty/table/2
+
+2*1=2
+2*2=4
+
+;;2*10=20
+
+html,css...>prepare
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+Good Morning to all(Day3):
+==========================
+
+Github link:
+============
+https://github.com/anilpolineni/SummerTrainingProgram-DjangoBatch-03.git
+
+
+Django introduction:
+====================
+-->web application framework is a software framework that is designed to support the development of web applicactions,web apis.
+-->web frameworks are standard way to build and deploy web applications
+* python frameworks:
+....................
+Django
+Flask
+web2py
+bottle
+cherrypy
+pyramid
+
+Django:
+........
+user authentication
+Django includes various helping modules and librearies to handle common webapplications task
+Django takes care of userauth,content administration,user maps.
+heavyweight
+*very fast
+*fullyloaded
+*secure
+*opensource
+
+
+MVT_MVC architectures:
+======================
+
+MVC:
+===
+model:it contains all db part,(tables,rows,col)
+
+view: frontend,user view
+
+control:it contains logics
+
+
+MVT:
+====
+Model:database tables
+
+View: logics
+
+Template:html
+
+
+www.rehister
+
+viwes....>reister related funtion....>call html move
+     store logic in table....>data store...>succes login render
+
+form.html(templates)
+
+name:satheesh
+age:26
+
+db store....>
+
+
+
+
+
+
+
+Django installation:
+====================
+
+pip install Django==version
+
+	or
+pip install Django
+
+check the version
+
+cmd:django-admin --version
+pythonshel: import django
+			django.get_version()
+
+
+
+Django project creation:
+========================
+
+
+django-admin startproject Apssdc(projectname)
+
+
+Apssdc(folder)..>Apssdc(project)
+				..>__init__.py..>python package it executes the initialization code ,pyhton file consider
+				..>settings..>apps related,images,images load,mediaroot,mediaurl(project settings)
+				-->ursl.py.....>navigate https://google.com
+				-->wsgi.py...>heroku,aws ec2
+			  ..>manage.py...>settings...>apps1,2,3 execute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+GoodMorning to all(Day7):
+==========================
+
+
+==>static files handling:
+    ------------------------------
+    ==> we have to create a static folder inside our app
+    -- in that static folder we will store css,js and image files
+    --> foraccessing those static files we have define
+        STATIC_URL = 'static' in settings.py
+    --. for loading this static file we have to define a statement inside
+        templates(.html)
+                {% load static %}
+
+==> bootsrap in Dajngo:
+    ..1)bootstrap.mon.css
+    ..2)jquery.min.js
+    ..3)bootstrap.min.js
+
+    --> we have to mention links  direclty in style tag
+    --> second way is we have to download bootstrap files from respective source then place all those files inside static folder
