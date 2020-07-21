@@ -1,0 +1,65 @@
+Goodmorning to all(Day8):
+=========================
+
+comman navbar:
+==============
+
+includes(folder)...>navbar.html
+
+index.html....>include 'includes/navbar.html'
+
+remaining html...<extends index.html 
+
+
+
+Model creation:
+===============
+
+class Studentform(models.Model):
+	s_name=models.CharField(max_length=50)
+	s_age=models.IntegerField()
+	s_roll=models.CharField(max_length=10)
+	s_email=models.EmailField(max_length=100)
+
+makemigrations...>interface create class tables...>db part
+migrate....>interface use table create
+
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+register models in admin.py....>admin.site.register(modelname)
+
+
+ORM:(object relational mapping)
+====
+crud...>create,read,update,delete
+
+..>sql queries
+
+..>in django orm
+
+..>in sql inser into table tablename()values()
+..>orm(insert data):
+	2 ways..>create()
+			obj=classname.objexts.create(filed="vali",field2=""...)
+		
+		....>save()
+ 		obj=classname(filed="vali",field2="".....)
+ 		obj.save()
+..>read data:
+==============
+	obj=classname.objects.all()...>all data
+	for specific fields: values()
+	 syntax: classname.objects.values('filednames','filed2'...)
+
+
+
+
+
+
+
+
+
+
