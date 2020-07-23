@@ -1,0 +1,31 @@
+Good morning to all(Day10):
+===========================
+
+https://global.gotomeeting.com/join/933730933
+
+Crud operations using form:
+============================
+
+Read:
+======
+update:
+=======
+Delete:
+========
+
+Task:
+........
+* delete functionality
+
+* comedian_registration
+	--name
+	--age
+	--email
+	--no of movies
+	--email
+	--gender
+	--languages..>telh,tamil,hindi
+	--mobile
+
+* aply crud operations for comedian model
+
