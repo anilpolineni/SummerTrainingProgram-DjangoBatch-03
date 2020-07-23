@@ -1,0 +1,41 @@
+..>read data:
+==============
+	obj=classname.objects.all()...>all data
+	for specific fields: values()
+	 syntax: classname.objects.values('filednames','filed2'...)
+
+* values_list()
+* get()..> we can't access multiple records
+* filter()...>we access multiple records
+* first()..>first row record
+* last()..>last recored in table
+* update()..>get value
+			>all.update()
+
+* delete()
+
+
+
+Crud operations:
+================
+
+* store data insert through form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
