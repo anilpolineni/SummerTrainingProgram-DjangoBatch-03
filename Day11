@@ -1,0 +1,28 @@
+Good Morning 
+===========
+
+Topic :
+	-Image file uploading and displaying
+	-forms
+	
+	
+Image file uploading and displaying
+-----------------------------------
+
+Inastll pillow :>pip install pillow
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/images')
+photos/python_image.png
+
+
+references:
+------------
+Image file handling:
+https://docs.djangoproject.com/en/3.0/topics/files/
+
+
+forms:
+https://docs.djangoproject.com/en/3.0/topics/forms/
+
+
