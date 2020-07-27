@@ -1,0 +1,32 @@
+Topics : 
+---------
+
+1. Mysql Database Connections with Django
+
+Software:
+-----------
+xampp : https://www.apachefriends.org/download.html
+
+--> we have to install mysql adapter
+	pip install mysqlclient
+---> settings.py
+
+	DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'sample',
+	'USER': 'root',
+	'PASSWORD': '',
+	'HOST':'localhost',
+	'PORT':'3306'
+        
+    }
+}
+
+2. Messages
+- success
+- info
+- warning
+- debug
+- error
+
