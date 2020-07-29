@@ -1,0 +1,22 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+
+<div class="container">
+	<form action="{% url 'deleteuser' user.id %}" method="POST">
+		{% csrf_token %}
+
+		<div class="card">
+			<div class="card-body">
+				<h1>
+					<strong style="color: blue;">{{user.username}}</strong> Are You Sure you want to delete?
+				</h1>
+				
+			</div>
+			
+		</div>
+		<input type="submit" value="Delete" class="btn btn-outline-danger btn-lg">
+		<a href="{% url 'showusers'%}" class="btn btn-warning btn-lg">Cancel</a>
+	</form>
+</div>
+{% endblock %}

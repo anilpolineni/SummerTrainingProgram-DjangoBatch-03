@@ -1,0 +1,42 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+
+<div class="container">
+
+	<table class="table table-bordered table-hover table-stripped">
+		<thead>
+			<tr class="bg-primary text-white text-center">
+				<th>S.no</th>
+				<th>First_Name</th>
+				<th>Last_Name</th>
+				<th>UserName</th>
+				<th>Email-id</th>
+				<th colspan="2">Operations</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for i in data %}
+			<tr>
+				<td>{{forloop.counter}}</td>
+				<td>{{i.first_name}}</td>
+				<td>{{i.last_name}}</td>
+				<td>{{i.username}}</td>
+				<td>{{i.email}}</td>
+				<td>
+					<a href="{% url 'edituser' i.id %}" class="btn btn-outline-success btn-lg">Edit</a>
+				</td>
+				<td>
+					<a href="{% url 'deleteuser' i.id %}" class="btn btn-outline-danger btn-lg">Delete</a>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	
+</div>
+
+
+
+
+{% endblock %}
